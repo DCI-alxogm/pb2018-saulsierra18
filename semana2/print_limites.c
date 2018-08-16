@@ -5,7 +5,7 @@
 
 int main( )
 {
-    printf("UINT_MAX = %u \n", UINT_MAX);
+    printf("UINT_MAX = %u \n", UINT_MAX); /* Número maximo */
     printf("ShrtINT_MAX = %i \n", SHRT_MAX);
     printf("ShrtINT_MIN = %i \n", SHRT_MIN);
     printf("INT_MAX = %i \n", INT_MAX);
