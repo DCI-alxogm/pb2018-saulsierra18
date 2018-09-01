@@ -29,7 +29,7 @@ int main ()
             scanf("%lf",&c);
             h=(1.8*c)+32;
             printf("Fº=%lf\n",h);
-            f=(z-32)*5/9;
+            f=(h-32)*.5555555556;
             printf("Cº=%lf \n", f);
         }
 
