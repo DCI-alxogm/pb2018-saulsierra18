@@ -12,9 +12,9 @@ int main ()
 {
     int i;
     int n;
-    printf("Introduzca el número de elementos que desea\n");
+    printf("\t\tIntroduzca el número de elementos que desea\n");
     scanf("%i",&n);
-    
+    printf("----------------------------------------------------------------------------------------------------------------------------\n\n");
     for (i=0; i<n; i++)
     {
         float numeros[i];
