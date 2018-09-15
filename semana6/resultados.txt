@@ -1,0 +1,5 @@
+		Se detectaron 10 alumnos inscritos a la Universidad de Guanajuato
+Mujeres=4
+Hombres=6
+El promedio de los estudiantes de la Universidad de Guanajuato es: 8.180000
+
