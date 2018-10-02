@@ -1,4 +1,7 @@
 //Creado por Saúl Eduardo Sierra Luna
+//1/10/18
+//Universidad De Guanajuato
+//División Ciencias e Ingenierías
 #include <stdio.h>
 #include <math.h>
 
