@@ -13,6 +13,7 @@ int main ()//Este es el programa principal
 {
     
     cuadrado();
+    
     return 0;
 }
 
