@@ -39,4 +39,6 @@ float valor_cos()
     scanf("%f",&x);
    x2=cos(x);
     return x2;
+    
+    
 }
