@@ -11,8 +11,8 @@
 #include <math.h>
 void raiz();
 float valor_cos();
-float xen(float h);
-void cuadrado(void);
+
+int compara( int a, int b );
 
 int main()
 {
@@ -20,6 +20,15 @@ int main()
     raiz();
     x2=valor_cos();
     printf("El cos de x es=:%lf\n",x2);
+    int num1, num2;
+    int resultado;
+    
+    printf( "Introduzca dos números: " );
+    scanf( "%i %i", &num1, &num2 );
+    
+    resultado = compara( num1, num2 );
+    
+    printf( "El mayor de los dos es %i\n", resultado );
     
     
     return 0;
@@ -41,4 +50,15 @@ float valor_cos()
     return x2;
     
     
+}
+int compara( int a, int b )     /* Metemos los parámetros a y b a la función */
+{
+    int mayor;        /* Esta función define su propia variable;
+                       esta variable sólo se puede usar aquí */
+    if ( a>b )
+    mayor = a;
+    else
+    mayor = b;
+    
+    return mayor;
 }
